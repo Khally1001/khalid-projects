@@ -1,0 +1,154 @@
+h1{
+    text-align: center;
+    font-family:Fredericka the Great, arial;
+}
+.first-container{
+    background: linear-gradient(to right, pink, white);
+    padding: 20px
+}
+p{
+    margin-block: 0;
+    font-family: roboto, Arial;
+}
+.LOGO{
+    display: flex;
+    justify-content: center;
+}
+.navigation-bar{
+    display: flex;
+    background: linear-gradient(to right, white, grey);
+    border: none;
+}
+.triple-dash{
+    width: 40px;
+}
+.relative-image{
+    position: relative;
+    cursor: pointer;
+}
+.relative-image .absolute-to-relative-image{
+    display: grid;
+    gap: 3px;
+    position: absolute;
+    opacity: 0;
+    border-style: solid;
+    border: 1px;
+    border-color: pink;
+}
+.relative-image:hover .absolute-to-relative-image{
+    opacity: 1;
+}
+.first-part,.second-part,.third-part{
+    font-family: roboto, arial;
+    font-weight: 550px;
+    border-radius: 4px;
+}
+.first-part{
+    background-color: white;
+}
+.first-part:hover{
+    background-color: pink;
+    color: white;
+    font-weight: 650px;
+}
+.second-part{
+    background-color: rgb(199, 199, 199);
+}
+.second-part:hover{
+    background-color: pink;
+    color: white;
+    font-weight: 650px; 
+}
+.third-part:hover{
+    background-color: pink;
+    color: white;
+    font-weight: 650px;
+}
+.third-part{
+    background-color: white;
+}
+.navigation-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.button-1, .button-2{
+    background-color: pink;
+    color: white;
+    font-family: roboto, ariel;
+    border-style: solid;
+    border: none;
+    border-radius: 15px;
+    font-weight: 650px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button-1:hover, .button-2:hover{
+background-color: white;
+color: pink;
+transition: 0.2s;
+}
+.first-container p{
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+.image-1{
+    width: 300px;
+    border-radius: 10px;
+}
+.main-1-sub-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 80px;
+}
+.goals{
+    font-weight: bold;
+}
+ul{
+    margin-left: 0;
+    font-family: roboto, arial;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.div-for-goals-writedown{
+    background-color: rgb(216, 216, 216);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.div-for-goals-writedown:hover{
+    border-radius: 4px;
+}
+.information{
+    margin-top: 14px;
+    margin-bottom: 4px;
+    margin-left: 300px;
+}
+h2{
+    margin-top: 40px;
+    font-family: roboto, arial;
+    font-weight: 650px;
+    font-style: italic;
+}
+.main-3-sub-container{
+    margin-left: 200px;
+}
+.whatsapp{
+    height: 45px;
+    margin-left: 469px;
+    background-color: rgba(37, 134, 37, 0.986);
+    color:white;
+    border-style:solid;
+    border-radius: 40px;
+    font-weight: 500px;
+    display: block;
+}
+.whatsapp:hover{
+    background-color: white;
+    color: rgba(37, 134, 37, 0.986);
+    font-weight: 500px;
+    cursor: pointer;
+    transition: 0.2s;
+}
